@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/vadsiam/HOMEWORK/vadsiam.github.io/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/vadsiam/HOMEWORK/vadsiam.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "e22d0d1dff3d6c4ffcdb4342ad4a68d8",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -1209,16 +1200,14 @@
         "description": "Frontend, React",
         "author": "@vadsiam"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-28T20:58:48.691Z",
+      "buildTime": "2018-12-28T21:01:38.935Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e921ab07d1ca6f78a098513237bf1938",
+        "contentDigest": "ef4050c2c269831f76846b0a39407f37",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1228,7 +1217,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "17b62cb63b014701e845de70b57d3a43",
+        "contentDigest": "fce1789ca37704a8ec6bd1807c9eca36",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1239,9 +1228,9 @@
       "extension": "",
       "size": 288,
       "prettySize": "288 B",
-      "modifiedTime": "2018-12-28T10:12:12.309Z",
-      "accessTime": "2018-12-28T20:58:53.234Z",
-      "changeTime": "2018-12-28T20:58:08.404Z",
+      "modifiedTime": "2018-12-28T21:01:17.015Z",
+      "accessTime": "2018-12-28T21:01:41.110Z",
+      "changeTime": "2018-12-28T21:01:17.015Z",
       "birthTime": "2018-12-27T21:42:15.100Z",
       "root": "/",
       "dir": "/Users/vadsiam/HOMEWORK/vadsiam.github.io/src",
@@ -1258,13 +1247,13 @@
       "blksize": 4194304,
       "ino": 28399322,
       "blocks": 0,
-      "atimeMs": 1546030733233.912,
-      "mtimeMs": 1545991932308.9783,
-      "ctimeMs": 1546030688403.9895,
+      "atimeMs": 1546030901110.0347,
+      "mtimeMs": 1546030877015.2207,
+      "ctimeMs": 1546030877015.2207,
       "birthtimeMs": 1545946935099.836,
-      "atime": "2018-12-28T20:58:53.234Z",
-      "mtime": "2018-12-28T10:12:12.309Z",
-      "ctime": "2018-12-28T20:58:08.404Z",
+      "atime": "2018-12-28T21:01:41.110Z",
+      "mtime": "2018-12-28T21:01:17.015Z",
+      "ctime": "2018-12-28T21:01:17.015Z",
       "birthtime": "2018-12-27T21:42:15.100Z"
     },
     "1778b9a9-dfec-5bda-b5c1-a2c4a6cc0b4e": {
@@ -1272,7 +1261,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ae1b597ceb2dbe3d8232adbcd27c15de",
+        "contentDigest": "22412244a4edf49fd1ae56213ad84eb5",
         "type": "Directory",
         "description": "Directory \"src/images/icons\"",
         "owner": "gatsby-source-filesystem"
@@ -1283,10 +1272,10 @@
       "extension": "",
       "size": 448,
       "prettySize": "448 B",
-      "modifiedTime": "2018-12-28T20:22:47.321Z",
-      "accessTime": "2018-12-28T20:58:53.236Z",
-      "changeTime": "2018-12-28T20:58:08.402Z",
-      "birthTime": "2018-12-28T09:14:48.362Z",
+      "modifiedTime": "2018-12-28T21:01:17.012Z",
+      "accessTime": "2018-12-28T21:01:41.112Z",
+      "changeTime": "2018-12-28T21:01:17.012Z",
+      "birthTime": "2018-12-28T21:01:17.009Z",
       "root": "/",
       "dir": "/Users/vadsiam/HOMEWORK/vadsiam.github.io/src/images",
       "base": "icons",
@@ -1300,16 +1289,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 28399326,
+      "ino": 28435975,
       "blocks": 0,
-      "atimeMs": 1546030733236.2732,
-      "mtimeMs": 1546028567320.8242,
-      "ctimeMs": 1546030688402.2937,
-      "birthtimeMs": 1545988488362.0696,
-      "atime": "2018-12-28T20:58:53.236Z",
-      "mtime": "2018-12-28T20:22:47.321Z",
-      "ctime": "2018-12-28T20:58:08.402Z",
-      "birthtime": "2018-12-28T09:14:48.362Z"
+      "atimeMs": 1546030901112.0503,
+      "mtimeMs": 1546030877011.5884,
+      "ctimeMs": 1546030877011.5884,
+      "birthtimeMs": 1546030877008.7292,
+      "atime": "2018-12-28T21:01:41.112Z",
+      "mtime": "2018-12-28T21:01:17.012Z",
+      "ctime": "2018-12-28T21:01:17.012Z",
+      "birthtime": "2018-12-28T21:01:17.009Z"
     },
     "02139b41-3230-56e6-bf5b-35f715f6c800": {
       "id": "02139b41-3230-56e6-bf5b-35f715f6c800",
@@ -2285,7 +2274,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "89c54660cd7b5bfd51640c7c6b2c0181",
+        "contentDigest": "53f3d8751e12be09e9ae5bdf912b17e2",
         "type": "Directory",
         "description": "Directory \"src/markdown\"",
         "owner": "gatsby-source-filesystem"
@@ -2296,10 +2285,10 @@
       "extension": "",
       "size": 96,
       "prettySize": "96 B",
-      "modifiedTime": "2018-12-28T11:32:43.500Z",
-      "accessTime": "2018-12-28T20:58:53.281Z",
-      "changeTime": "2018-12-28T20:58:08.405Z",
-      "birthTime": "2018-12-28T11:32:27.334Z",
+      "modifiedTime": "2018-12-28T21:01:17.019Z",
+      "accessTime": "2018-12-28T21:01:41.134Z",
+      "changeTime": "2018-12-28T21:01:17.019Z",
+      "birthTime": "2018-12-28T21:01:17.019Z",
       "root": "/",
       "dir": "/Users/vadsiam/HOMEWORK/vadsiam.github.io/src",
       "base": "markdown",
@@ -2313,16 +2302,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 28399342,
+      "ino": 28435990,
       "blocks": 0,
-      "atimeMs": 1546030733280.8516,
-      "mtimeMs": 1545996763500.036,
-      "ctimeMs": 1546030688404.7327,
-      "birthtimeMs": 1545996747334.129,
-      "atime": "2018-12-28T20:58:53.281Z",
-      "mtime": "2018-12-28T11:32:43.500Z",
-      "ctime": "2018-12-28T20:58:08.405Z",
-      "birthtime": "2018-12-28T11:32:27.334Z"
+      "atimeMs": 1546030901134.4568,
+      "mtimeMs": 1546030877019.1658,
+      "ctimeMs": 1546030877019.1658,
+      "birthtimeMs": 1546030877019.0493,
+      "atime": "2018-12-28T21:01:41.134Z",
+      "mtime": "2018-12-28T21:01:17.019Z",
+      "ctime": "2018-12-28T21:01:17.019Z",
+      "birthtime": "2018-12-28T21:01:17.019Z"
     },
     "9d6a1573-93e3-59e1-bb84-10b3a2985b70": {
       "id": "9d6a1573-93e3-59e1-bb84-10b3a2985b70",
@@ -2560,10 +2549,6 @@
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/vadsiam/HOMEWORK/vadsiam.github.io/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/vadsiam/HOMEWORK/vadsiam.github.io/.cache/dev-404-page.js"
-    },
     "/Users/vadsiam/HOMEWORK/vadsiam.github.io/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/vadsiam/HOMEWORK/vadsiam.github.io/src/pages/404.js"
