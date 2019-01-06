@@ -29,8 +29,8 @@ export default class Button extends React.Component {
             <button
               style={{
                 width: '100%',
-                height: '29vh',
-                borderRadius: '10%',
+                height: '100%',
+                borderRadius: '20px',
                 backgroundColor: 'white',
                 border: '1px solid black',
                 margin: `0 0 2vh`,

@@ -29,7 +29,8 @@ const ImageWho = () => (
     `}
     render={data => <Img 
       style={{
-        marginTop: 50,
+        height: '400px',
+        borderRadius: '20px',
       }}
       fluid={data.placeholderImage.childImageSharp.fluid} />}
   />

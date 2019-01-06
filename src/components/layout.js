@@ -1,13 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import { Link } from 'gatsby'
 
 import Header from './header'
 import './layout.css'
-import contact_icon from '../images/icons/contact.png'
 
-const iconStyle = {height: '7vh', margin: '0 10px'}
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -32,13 +29,7 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
-          <footer
-            style={{
-              marginTop: '30px',
-            }}>
-            <Link to={'/who_am_i/'}>
-              <img alt="" src={contact_icon} style={ iconStyle }/>
-            </Link>      
+          <footer>
           </footer>
         </div>
       </>
