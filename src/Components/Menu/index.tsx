@@ -28,6 +28,7 @@ function ResponsiveAppBar() {
 
   const handleCloseNavMenu = (page: string) => {
     console.log('🚀 ~ file: index.tsx:30 ~ elem:', page)
+    document.getElementById(page)?.scrollIntoView({ behavior: "smooth" });
     setAnchorElNav(null);
   };
 
@@ -36,7 +37,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="sticky">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography

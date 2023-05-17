@@ -3,7 +3,7 @@ import { Card, CardContent, CardMedia, Typography } from '@mui/material';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 
-const Experience = () => {
+const Pets = () => {
   const experiences = [
     {
       image: '/screen/cake.png',
@@ -54,7 +54,7 @@ const Experience = () => {
 
   return (
     <div
-      id="Experience"
+      id="Pets"
     >
       <Carousel
         autoPlay
@@ -101,4 +101,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Pets;

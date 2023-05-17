@@ -11,6 +11,7 @@ const Bio = () => {
 
   return (
     <Card
+      id="BIO"
       sx={{
         backgroundColor: 'background.paper',
         color: 'primary.main',
