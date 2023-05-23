@@ -6,49 +6,29 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 const Pets = () => {
   const experiences = [
     {
-      image: '/screen/cake.png',
-      title: 'Cake DeFi',
-      description: '• Created huge web app, frontend with React and backend part with NodeJS, made a major contribution to the development.\n• Conducted daily code reviews for teams in GitHub, made full integrations with third - party companies(login, swap data)',
+      image: '/screen/pet_aivisik.jpg',
+      title: 'AIVisik',
+      description: '• Autonomy bot which generate images from random search string by country and Midjourney/Dall-E2',
     },
     {
-      image: '/screen/cake1.jpg',
-      title: 'Cake DeFi',
-      description: '• Created huge mobile app, frontend with React Native and backend part with NodeJS, made a major contribution to the development.\n• Conducted daily code reviews for teams in GitHub, wrote a full flow push notification service for mobile app(FE + BE)',
+      image: '/screen/pet_aivisik1.jpg',
+      title: 'AIVisik',
+      description: '• Autonomy bot which generate images from random search string by country and Midjourney/Dall-E2',
     },
     {
-      image: '/screen/onead.png',
+      image: '/screen/pet_aivisik2.jpg',
       title: 'Audienzz',
-      description: '• Created huge web app, frontend with React, backend with NodeJS. Platform to create your own Ads from Switzerland.',
+      description: '• Autonomy bot which generate images from random search string by country and Midjourney/Dall-E2',
     },
     {
-      image: '/screen/audienzz.png',
-      title: 'Audienzz',
-      description: '• Created huge web app, frontend with React. Ads platform from Switzerland. Belong to NZZ Group',
+      image: '/screen/pet_xmlc.png',
+      title: 'XMLC',
+      description: '• Blockchain project with own tokens and NFT collections for Fashion Industry',
     },
     {
-      image: '/screen/baseball.png',
-      title: 'Avocado',
-      description: '• Created huge mobile app, frontend with React Native and backend part with NodeJS, made a major contribution to the development.\n• Conducted daily code reviews for teams in GitHub, wrote a full flow push notification service for mobile app(FE + BE)',
-    },
-    {
-      image: '/screen/calendar.png',
-      title: 'Avocado',
-      description: '• Created huge mobile app, frontend with React Native and backend part with NodeJS, made a major contribution to the development.\n• Conducted daily code reviews for teams in GitHub, wrote a full flow push notification service for mobile app(FE + BE)',
-    },
-    {
-      image: '/screen/discount.png',
-      title: 'Volt',
-      description: '• Created huge mobile app, frontend with React Native and backend part with NodeJS, made a major contribution to the development.\n• Conducted daily code reviews for teams in GitHub, wrote a full flow push notification service for mobile app(FE + BE)',
-    },
-    {
-      image: '/screen/study.png',
-      title: 'Avocado',
-      description: '• Created huge mobile app, frontend with React Native and backend part with NodeJS, made a major contribution to the development.\n• Conducted daily code reviews for teams in GitHub, wrote a full flow push notification service for mobile app(FE + BE)',
-    },
-    {
-      image: '/screen/others.png',
-      title: 'Volt',
-      description: '• And many many different apps for mobile and web (FE + BE)',
+      image: '/screen/pet_zizi.jpg',
+      title: 'Zizi',
+      description: '• My home cat. Help me at work',
     },
   ];
 
@@ -56,6 +36,9 @@ const Pets = () => {
     <div
       id="Pets"
     >
+      <Typography variant="h4">
+        Pets
+      </Typography>
       <Carousel
         autoPlay
         infiniteLoop

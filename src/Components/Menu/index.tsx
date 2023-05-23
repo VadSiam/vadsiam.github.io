@@ -6,14 +6,17 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
+import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 
-const pages = ['BIO', 'Experience', 'Pets', 'Hobbies'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['BIO', 'Projects', 'Pets', 'Hobbies'];
+const settings = [[EmailIcon, 'nevod80@gmail.com'], [LinkedInIcon, 'https://linkedin.com/in/vadim-shamigulov'], [GitHubIcon, 'https://github.com/vadsiam']];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -127,7 +130,7 @@ function ResponsiveAppBar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                Contacts
               </IconButton>
             </Tooltip>
             <Menu
@@ -146,9 +149,16 @@ function ResponsiveAppBar() {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
+              {settings.map(([Icon, link], indx) => (
+                <MenuItem key={link as string} onClick={handleCloseUserMenu}>
+                  <Icon sx={{ marginRight: '10px' }} />
+                  <a href={!indx ? `mailto:${link}` : (link as string)}
+                    style={{ color: '#ff3d80' }}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    <Typography textAlign="center">{link as string}</Typography>
+                  </a>
                 </MenuItem>
               ))}
             </Menu>
