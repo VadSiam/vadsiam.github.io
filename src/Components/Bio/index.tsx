@@ -2,8 +2,8 @@ import React from 'react';
 import { Card, CardContent, CardMedia, Divider, Typography } from '@mui/material';
 import { calculateYearsDifference } from '../../utils/helpers';
 
-const startWorkDate = 'May 2015';
-const startWorkDateBE = 'Jun 2021';
+const startWorkDate = [2015, 4]; // 4 - is May!
+const startWorkDateBE = [2021, 5]; // 5 - is June!
 
 const Bio = () => {
   const currentWorkingYears = calculateYearsDifference(startWorkDate);
